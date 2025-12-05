@@ -37,7 +37,7 @@ export const Benefits: React.FC = () => {
             <Reveal key={index} delay={index * 50} direction='up'>
               <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center border border-white/20 hover:bg-white/20 transition-all hover:-translate-y-1">
                 <div className="w-12 h-12 mx-auto bg-white rounded-full flex items-center justify-center text-primary mb-4 shadow-lg">
-                  {React.cloneElement(benefit.icon as React.ReactElement, { size: 24 })}
+                  {React.cloneElement(benefit.icon as React.ReactElement<any>, { size: 24 })}
                 </div>
                 <h3 className="font-semibold text-white">{benefit.title}</h3>
               </div>
