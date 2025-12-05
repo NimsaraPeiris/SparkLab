@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <GraduationCap className="text-primary" size={32} />
-              <span className="text-2xl font-display font-bold">ICT Hub</span>
+              <span className="text-2xl font-display font-bold">Spark Lab</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Empowering the next generation of tech leaders with quality education, resources, and community support.
