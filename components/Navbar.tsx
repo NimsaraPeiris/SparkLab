@@ -44,7 +44,7 @@ export const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
               <GraduationCap size={24} />
             </div>
             <span className="font-display font-bold text-2xl tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary dark:from-primary-light dark:to-secondary">
-              ICT Hub
+              Spark Lab
             </span>
           </div>
 
